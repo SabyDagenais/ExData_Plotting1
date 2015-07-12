@@ -1,0 +1,6 @@
+> pdf(file='C:/Users/Saby/Desktop/Summer/CourseEra/Data Exploratory analysis/Plot3.pdf')
+> plot(myData_subset$Time,myData_subset$Sub_metering_11, col="blue", type="l", ylim=c(0,40))
+>  plot(myData_subset$Time,myData_subset$Sub_metering_22,col="red", type="l", ylim=c(0,40), add=T)
+>  plot(myData_subset$Time,myData_subset$Sub_metering_33, col="black", type="l", ylim=c(0,40), add=T)
+> legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), fill=c("blue","red","grey"))
+> dev.off()
